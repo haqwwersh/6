@@ -22,6 +22,4 @@ public class Main{
             .filter(car -> car.getBrand().equals(brand) && (Year - car.getYear()) > years)
             .toArray(Car[]::new);
 }
-
-    }
 }
